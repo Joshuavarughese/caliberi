@@ -71,8 +71,6 @@ Any other string word putted on format will be returned as it is.<br>
 for eg:</h5> <br>
 
     time = getCurrentTime(format='%H:%M')
-<br>
-
     print(time)
 <br>
 <h5>Here the output will be `hour:minute`, we use a separator : and it is returned as it. In this eg we donot get seconds as we have not given %S</h5><br>
