@@ -60,16 +60,16 @@ Classes
 <h3>getCurrentTime()</h3>
     --------------------------------
 <br>
-This function returns current time in a str variable.
-Parameters format.
+<h5>This function returns current time in a str variable.
+Parameters format.</h5>
 
     getCurrentTime(format='%H %M %S')
 
-In format %H indicate hours, %M for minutes & %S for seconds<br>
+<h5>In format %H indicate hours, %M for minutes & %S for seconds<br>
 Any other string word putted on format will be returned as it is.<br>
-for eg: <br>`time = getCurrentTime(format='%H:%M')`<br>
+for eg:</h5> <br>`time = getCurrentTime(format='%H:%M')`<br>
 `print(time)`<br>
-Here the output will be `hour:minute`, we use a separator : and it is returned as it. In this eg we donot get seconds as we have not given %S<br>
+<h5>Here the output will be `hour:minute`, we use a separator : and it is returned as it. In this eg we donot get seconds as we have not given %S</h5><br>
 ----
 <br>
 <h3>getCurrentDate()</h3>
