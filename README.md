@@ -5,7 +5,12 @@
 * Makes your program easier
 * Comparable with Systems
 
-<h3>Lets start with import</h3>
+<h3>Lets start with installation</h3>
+
+    pip install caliberi
+OR
+
+    pip3 install caliberi
 Imports
     
     from caliberi import *
