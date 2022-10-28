@@ -83,11 +83,12 @@ This function will return current Date. Parameter format.<br>
 
     getCurrentDate(format='%D %M %Y')
 
-In format %D indicate date, %M for month & %Y for year.<br>
+<h6>In format %D indicate date, %M for month & %Y for year.<br>
 Any other string word putted on format will be returned as it is.<br>
-for eg:<br>`date = getCurrentDate(format='%D/%M/%Y')`<br>
+for eg:</h6><br>
+`date = getCurrentDate(format='%D/%M/%Y')`<br>
 `print(date)`<br>
-Here the output will be `date/month/year`, we use a separator / and it is returned a it is.<br>
+<h5>Here the output will be `date/month/year`, we use a separator / and it is returned a it is.</h5><br>
 ----
 <h3>showImage()</h3>
     ------------------------<br>
