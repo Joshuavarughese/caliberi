@@ -73,7 +73,8 @@ for eg:</h5> <br>
     time = getCurrentTime(format='%H:%M')
 <br>
 
-    print(time)<br>
+    print(time)
+<br>
 <h5>Here the output will be `hour:minute`, we use a separator : and it is returned as it. In this eg we donot get seconds as we have not given %S</h5><br>
 ----
 <br>
@@ -86,8 +87,10 @@ This function will return current Date. Parameter format.<br>
 <h6>In format %D indicate date, %M for month & %Y for year.<br>
 Any other string word putted on format will be returned as it is.<br>
 for eg:</h6><br>
-`date = getCurrentDate(format='%D/%M/%Y')`<br>
-`print(date)`<br>
+
+    date = getCurrentDate(format='%D/%M/%Y')
+    print(date)
+<br>
 <h5>Here the output will be `date/month/year`, we use a separator / and it is returned a it is.</h5><br>
 ----
 <h3>showImage()</h3>
@@ -107,5 +110,3 @@ This function is used to take a Screenshot of the screen. Parameters file_name, 
 This function will take a screenshot after waiting {delay} seconds and saves  it as {file_name} & if show=True then it will show the taken image.
 In the above eg it will take screenshot after `2` seconds and saves it as `myscreenshot.png` and shows the taken image.
 <h2>Licensed Under MIT</h2>
-<img src='OSIApproved_1.png'></img>
-
