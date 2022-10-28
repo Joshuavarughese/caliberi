@@ -1,9 +1,6 @@
 <h1>Caliberi Python Library (Linux)</h1>
 
 <h4>Welcome to caliberi python library documentation</h4>
-* Easy to use
-* Makes your program easier
-* Comparable with Systems
 
 <h3>Lets start with installation</h3>
 
@@ -17,50 +14,49 @@ Imports
 
 OR
 
-    import Caliberi
+    import caliberi
 
 <h4>Usages</h4>
 Before that, lets look at the structure of library<br>
 Caliberi(Lite) have three python files which can be imported<br>
 They are:
-* calib
-* web
-* calibmath
-<br>calib is the main file. It has the basic functions and classes
+ calib<br>
+ web<br>
+ calibmath<br>
+<br>calib has the basic functions and classes
 <br>
 ___
 <h3>calib</h3>
-Functions:
-* getCurrentTime()
-* getCurrentDate()
-* showImage()
-* takeScreenshot()
-* copyFile()
-* makeDir()
-* makeFile()
-* deleteFile()
-* moveDir()
-* copyDir()
-* getSystemName()
-* playYoutubeVideo()
-* openGoogle()
-* openYoutube()
-* openGmail()
-* convertImgToAscii()
-* searchWeb()
-* openUrl()
-* searchWikipedia()
-* shutdownSystem()
-* cancelShutdown()
-* sendEmail()
-* sendHmail()
+Functions:<br>
+* getCurrentTime()<br>
+* getCurrentDate()<br>
+* showImage()<br>
+* takeScreenshot()<br>
+* copyFile()<br>
+* makeDir()<br>
+* makeFile()<br>
+* deleteFile()<br>
+* moveDir()<br>
+* copyDir()<br>
+* getSystemName()<br>
+* playYoutubeVideo()<br>
+* openGoogle()<br>
+* openYoutube()<br>
+* openGmail()<br>
+* convertImgToAscii()<br>
+* searchWeb()<br>
+* openUrl()<br>
+* searchWikipedia()<br>
+* shutdownSystem()<br>
+* cancelShutdown()<br>
+* sendEmail()<br>
+* sendHmail()<br>
 <br>
-Classes
-  * console
-  * network
-  * Thread
-  * File
-  * Folder
+Classes<br>
+  * console<br>
+  * network<br>
+  * Thread<br>
+  * File<br>
 
 <h3>getCurrentTime()</h3>
     --------------------------------
